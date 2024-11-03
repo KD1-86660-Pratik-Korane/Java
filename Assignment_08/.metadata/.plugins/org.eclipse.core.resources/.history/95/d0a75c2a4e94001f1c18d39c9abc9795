@@ -1,0 +1,24 @@
+package entities;
+
+public class Project {
+       int id;
+       String title;
+       int teamSize;
+       double projectCost;
+       String technology;
+       
+       
+    public Project() {
+    	
+    }
+	public Project(int id, String title, int teamSize, double projectCost, String technology) {
+		super();
+		this.id = id;
+		this.title = title;
+		this.teamSize = teamSize;
+		this.projectCost = projectCost;
+		this.technology = technology;
+	}
+       
+       
+}
